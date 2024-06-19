@@ -1,0 +1,26 @@
+{
+	"name": "Scheduletrigger1",
+	"properties": {
+		"description": "This is specific to scheduling trigger once a day only",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1Copy_Sink",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 10,
+				"startTime": "2024-06-19T15:16:00",
+				"endTime": "2024-06-19T16:00:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
