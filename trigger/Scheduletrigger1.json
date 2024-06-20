@@ -3,7 +3,7 @@
 	"properties": {
 		"description": "This is specific to scheduling trigger once a day only",
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
